@@ -1,0 +1,17 @@
+@media (max-width:376px) {
+
+    header nav ul li{
+        display: block;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+
+    main iframe{
+        width: 90%;
+        height: 150px;
+    }
+}
