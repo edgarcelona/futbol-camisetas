@@ -25,6 +25,11 @@ header a {
   color: #fff;
 }
 
+.navbar li a:hover {
+  color: rgb(111, 0, 0);
+  text-decoration: underline;
+}
+
 body {
   background-image: url(https://c.wallhere.com/photos/70/51/saintdenis_ledefrance_frankreich_fr_black_white_soccer_2016-831873.jpg!d);
   background-attachment: fixed;
@@ -79,6 +84,9 @@ main div article img {
   height: 90%;
   text-align: center;
   object-fit: contain;
+}
+main div article .imgProductos:hover {
+  filter: drop-shadow(5px 5px 12px white);
 }
 main div article p {
   text-align: center;

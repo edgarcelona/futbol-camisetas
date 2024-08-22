@@ -38,7 +38,10 @@ main {
                 height: 90%;
                 text-align: center;
                 object-fit: contain;
-                        }
+            }
+            .imgProductos:hover{
+                filter: drop-shadow(5px 5px 12px white);
+            }
             p {
                 text-align: center;
             }

@@ -15,4 +15,12 @@ header {
         text-transform: uppercase;
         font-weight: bold;
         color: $color-fuente;
-    }}
+    }
+    }
+
+.navbar li a:hover{
+    color: rgb(111, 0, 0);
+    text-decoration: underline;
+    }
+
+    
