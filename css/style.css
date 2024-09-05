@@ -179,6 +179,22 @@ footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+@media (max-width: 1024px) {
+  .grid .section1, .grid .section6 {
+    font-size: 60px;
+  }
+  .grid .section6 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .grid .section1, .grid .section6 {
+    font-size: 40px;
+  }
+  .grid .section6 {
+    font-size: 50px;
+  }
+}
 @media (max-width: 622px) {
   main iframe {
     width: 90%;
@@ -191,6 +207,44 @@ footer {
   }
   footer {
     font-size: x-small;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 40px 1fr 1fr 70px;
+    gap: 10px;
+    width: 95%;
+    height: 100%;
+    grid-template-areas: "s1 s1 s1 s1" "s2 s2 s3 s3" "s4 s4 s5 s5" "s6 s6 s6 s6";
+  }
+  .grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .grid .section1, .grid .section6 {
+    background-color: rgb(128, 128, 128);
+    grid-area: s1;
+    font-size: 20px;
+  }
+  .grid .section2 {
+    grid-area: s2;
+  }
+  .grid .section3 {
+    grid-area: s3;
+  }
+  .grid .section4 {
+    grid-area: s4;
+  }
+  .grid .section5 {
+    grid-area: s5;
+  }
+  .grid .section6 {
+    grid-area: s6;
+  }
+  main div article {
+    width: 60%;
+    height: 280px;
   }
 }
 @media (max-width: 376px) {
@@ -206,6 +260,21 @@ footer {
   main iframe {
     width: 90%;
     height: 150px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 40px 1fr 1fr 70px;
+  }
+}
+@media (max-width: 321px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 1fr 1fr 70px;
+  }
+  .grid .section6 {
+    font-size: 17px;
   }
 }
 

@@ -8,4 +8,54 @@
         font-size: x-small;
     }
 
-}
+    .grid {
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        grid-template-rows: 40px 1fr 1fr 70px;
+        gap: 10px;
+        width: 95%;
+        height: 100%;
+        grid-template-areas: 
+        "s1 s1 s1 s1"
+        "s2 s2 s3 s3"
+        "s4 s4 s5 s5"
+        "s6 s6 s6 s6";
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover ;
+        }
+        .section1 {
+            background-color: $color-fondo2;
+            grid-area: s1;
+            font-size: 20px;
+        }
+        
+        .section2 {
+            grid-area: s2;
+        }
+        
+        .section3 {
+            grid-area: s3;
+        }
+        
+        .section4 {
+            grid-area: s4;
+        }
+        
+        .section5 {
+            grid-area: s5;
+        }
+        
+        .section6 {
+            @extend .section1;
+            grid-area: s6;
+        }
+    }
+
+    main div article {
+
+        width: 60%;
+        height: 280px;
+
+}}

@@ -14,4 +14,9 @@
         width: 90%;
         height: 150px;
     }
-}
+
+    .grid {
+        display: grid;
+        grid-template-columns: 70px 70px 70px 70px;
+        grid-template-rows: 40px 1fr 1fr 70px;
+}}

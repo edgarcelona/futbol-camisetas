@@ -1,0 +1,9 @@
+@media (max-width:321px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 60px 60px 60px 60px;
+        grid-template-rows: 60px 1fr 1fr 70px;
+        .section6 {
+            font-size: 17px;
+        }
+}}
